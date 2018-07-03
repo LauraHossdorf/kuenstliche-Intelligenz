@@ -3,7 +3,7 @@
 Binäre Klassifizierung von Mensch und Tier mit Matlab.
 
 Zu Matlab:
-Matlab ist eine einfache Programmiersprache, die viele Möglichkeiten bietet. Matlab hat integrierte Computer Vision und neuronale Netzwerk Tools und mit einem Rechtsklick kann man sich zu jeder Funktione Hilfe suchen. Zudem sind die Ergebnisse durch die GUI zu jeder Zeit visualosierbar, anders als bei Python und ähnlichen Programmiersprachen. 
+Matlab ist eine einfache Programmiersprache, die viele Möglichkeiten bietet. Matlab hat integrierte Computer Vision und neuronale Netzwerk Tools und mit einem Rechtsklick kann man sich zu jeder Funktione Hilfe suchen. Zu dem sind die Ergebnisse durch die GUI zu jeder Zeit visualisierbar, anders als bei Python und ähnlichen Programmiersprachen. 
 
 Zum Projekt:
 Wir haben es uns zur Aufgabe gemacht, ein Programm zu erstellen, welches die veranstaltungsbegleitenden Materialien zu schwarzweiß skalierten Bildern umformt und schließlich erkennt ob es sich um einen Menschen oder ein Tier handelt. Nachdem das gelang, haben wir dazu eine App erstellt, die sowohl auf Mac Os und Windows läuft.
@@ -29,7 +29,7 @@ Beim Starten von "image_recognition.m" sieht man im Command Window das Ergebnis 
 Um das Programm zu testen, kann man folgende Befehle einzelnd ins Command Window eingeben:
                           
                           cd (+ Pfad zum Ordner test2)  
-                          test = imread('test059002.png');   
+                          test = imread('test059002.png');   ->Beispiel Bild
                           test2 = uint8(test);  
                           label = classify(programm,test2) 
                           
