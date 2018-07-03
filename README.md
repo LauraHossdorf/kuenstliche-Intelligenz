@@ -27,10 +27,10 @@ Als erstes öffnet man die zwei Programme in Matlab (Lizenz für Studierende der
 Beim Starten von "Bilder_skalieren.m" erscheinen auf dem Bildschirm die Ergebnisse, also die skalierten Bilder.
 Beim Starten von "image_recognition.m" sieht man im Command Window das Ergebnis der "labelCount = countEachLabel(imds)". Dieses zählt, wie viele Bilder Menschen und wie viele Bilder Tiere enthalten. Zusätzlich öffnet sich das zuvor erwähnte Diagramm.
 Um das Programm zu testen, kann man folgende Befehle einzelnd ins Command Window eingeben:
-                          cd (+ Pfad zum Ordner test2)
-                          test = imread('test059002.png'); ->Beispiel
-                          test2 = uint8(test);
-                          label = classify(programm,test2)
+                          cd (+ Pfad zum Ordner test2)  
+                          test = imread('test059002.png');   
+                          test2 = uint8(test);  
+                          label = classify(programm,test2)  
 Wichtig dafür ist es zuvor das Programm "image_recognition" verwendet zu haben!!! 
 Im Command Window wird dann unter "categorical" das Ergebnis angezeigt.
 
